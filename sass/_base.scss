@@ -1,0 +1,49 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: var(--very-light-gray);
+  font-size: 1.5rem;
+  font-family: $font-default;
+  font-weight: 400;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  background-image: url("../images/bg-pattern-top-desktop.svg"),
+    url("../images/bg-pattern-bottom-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: top left, right bottom;
+}
+
+.main-section {
+  max-width: 111rem;
+  display: flex;
+  flex-direction: column;
+  gap: 7.1rem;
+  margin: 11.8rem 16.5rem;
+}
+
+.attribution {
+  font-size: 1.2rem;
+  color: $color-primary-grahish;
+  margin-bottom: 3rem;
+
+  a {
+    color: $color-secondary;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}

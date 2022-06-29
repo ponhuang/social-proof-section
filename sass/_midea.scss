@@ -1,0 +1,73 @@
+// 1200px
+@media (max-width: 75em) {
+  .main-section {
+    gap: 4.9rem;
+  }
+
+  .header-section {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.9rem;
+  }
+
+  .review {
+    &__title {
+      font-size: 4rem;
+      margin-bottom: 1.7rem;
+    }
+
+    &__text {
+      font-size: 1.9rem;
+    }
+  }
+
+  .rate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 32.7rem;
+    gap: 1.5rem;
+    padding: 1.5rem 7.6rem 1.5rem 6.6rem;
+
+    &:nth-child(2) {
+      margin-left: 0;
+    }
+
+    &:nth-child(3) {
+      margin-left: 0;
+    }
+  }
+
+  .testimonial {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+  }
+
+  .author {
+    width: 40rem;
+    height: 20rem;
+
+    &:nth-child(2) {
+      margin-top: 0;
+    }
+
+    &:nth-child(3) {
+      margin-top: 0;
+    }
+
+    &__container {
+      margin-bottom: 2.3rem;
+    }
+  }
+
+  body {
+    background-image: url("../images/bg-pattern-top-mobile.svg"),
+      url("../images/bg-pattern-bottom-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top left, right bottom;
+  }
+}

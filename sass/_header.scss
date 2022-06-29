@@ -1,0 +1,59 @@
+.header-section {
+  display: flex;
+  width: 111rem;
+  gap: 12.5rem;
+}
+
+.review {
+  width: 44.5rem;
+
+  &__title {
+    font-size: 5.6rem;
+    font-weight: 700;
+    color: $color-primary;
+    line-height: 0.9;
+    letter-spacing: -2px;
+    margin-bottom: 2rem;
+  }
+
+  &__text {
+    color: $color-primary-grahish;
+    line-height: 1.5;
+  }
+}
+.rate__container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.rate {
+  display: flex;
+  gap: 3.25rem;
+  align-items: center;
+  border-radius: 8px;
+  width: 44.5rem;
+  background-color: $color-white-grayish;
+  padding: 2rem 3.2rem 2rem 7.9rem;
+
+  &:nth-child(2) {
+    margin-left: 4.8rem;
+  }
+
+  &:nth-child(3) {
+    margin-left: 9.6rem;
+  }
+
+  &__icon {
+    gap: 0.85rem;
+  }
+
+  &__text {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: $color-primary;
+  }
+}
+
+.icon-star {
+  width: 1.655rem;
+}
