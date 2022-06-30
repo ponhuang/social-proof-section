@@ -144,7 +144,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 32.7rem;
+    width: 75vw;
     gap: 1.5rem;
     padding: 1.5rem 0 1.5rem 0; }
     .rate:nth-child(2) {
@@ -156,15 +156,19 @@ body {
     align-items: center;
     gap: 1.6rem; }
     .testimonial__text {
-      padding: 0 3rem; }
+      padding: 0 3rem;
+      line-height: 1.5; }
   .author {
-    width: 90vw;
-    height: 20rem;
-    padding: 4rem 0rem 1.7rem 0rem; }
+    width: 75vw;
+    padding: 4rem 0rem 0rem 0rem; }
     .author:nth-child(2) {
       margin-top: 0; }
     .author:nth-child(3) {
       margin-top: 0; }
+    .author__name {
+      font-size: 1.6rem; }
+    .author__state {
+      font-size: 1.3rem; }
     .author__container {
       margin-left: 3rem;
       margin-bottom: 2.3rem; }
