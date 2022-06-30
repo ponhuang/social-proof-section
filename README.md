@@ -11,6 +11,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -51,3 +52,9 @@ Pon Huang
 
 - Instagram - [Pon Huang](https://www.instagram.com/ponhuang/)
 - Art Blog - [une felt](https://une722.wordpress.com)
+
+## Acknowledgments
+
+Thanks
+[ Ahmed Mahmoud Abdelwahab ](https://www.frontendmentor.io/profile/Ahmed96Mah)
+for giving me some advices to fix mobile and tablet version issues.
