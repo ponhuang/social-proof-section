@@ -124,25 +124,29 @@ body {
 
 @media (max-width: 75em) {
   .main-section {
-    gap: 4.9rem; }
+    gap: 4.9rem;
+    margin: 11.8rem 0rem; }
   .header-section {
     text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 3.9rem; }
-  .review__title {
-    font-size: 4rem;
-    margin-bottom: 1.7rem; }
-  .review__text {
-    font-size: 1.9rem; }
+    gap: 3.9rem;
+    width: 100vw; }
+  .review {
+    width: 80vw; }
+    .review__title {
+      font-size: 4rem;
+      margin-bottom: 1.7rem; }
+    .review__text {
+      font-size: 1.9rem; }
   .rate {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 32.7rem;
     gap: 1.5rem;
-    padding: 1.5rem 7.6rem 1.5rem 6.6rem; }
+    padding: 1.5rem 0 1.5rem 0; }
     .rate:nth-child(2) {
       margin-left: 0; }
     .rate:nth-child(3) {
@@ -151,14 +155,18 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 1.6rem; }
+    .testimonial__text {
+      padding: 0 3rem; }
   .author {
-    width: 40rem;
-    height: 20rem; }
+    width: 90vw;
+    height: 20rem;
+    padding: 4rem 0rem 1.7rem 0rem; }
     .author:nth-child(2) {
       margin-top: 0; }
     .author:nth-child(3) {
       margin-top: 0; }
     .author__container {
+      margin-left: 3rem;
       margin-bottom: 2.3rem; }
   body {
     background-image: url("../images/bg-pattern-top-mobile.svg"), url("../images/bg-pattern-bottom-mobile.svg");
